@@ -1,2 +1,34 @@
 # Sinhala-Transliterator
-Introduce Transliteration Solutions for Sinhala Language
+This is the official codebase for the [paper][paper-url]. Here we introduce Transliteration Solutions for Sinhala Language which is extendable for other Languages as well. 
+
+## Introduction
+We introduce two Transliteration solutions for Sinhala Transliteration problem as our solution for the [Shared Task of IndoNLPWorkshop 2025](https://indonlp-workshop.github.io/IndoNLP-Workshop/sharedTask/).
+
+## Our Approaches
+We introduced and evaluated two approaches as our solution for the task.
+
+### Rule-based Approach:
+A rule-based solution for Sinhala Transliteration which the resources can be found in [rule-based-method/][rule-based-method-url] directory.
+
+### Seq2Seq Modelling Approach:
+A deep-learning-based Seq2seq modeling solution for Sinhala Transliteration which the resources can be found in [seq2seq-method/][seq2seq-method-url] directory. Our trained model is available on [huggingface][hf-model-url].
+
+## Results
+- Official Test sets: https://github.com/IndoNLP-Workshop/IndoNLP-2025-Shared-Task
+- Test set 1 consists of 10,000 datapoints with General Romanized Typing Patterns	and, Test set 2 consists of 5,000 datapoints with Adhoc Romanized Typing Patterns
+- Following table shows the evaluation scores of our two approaches on the official test-sets
+
+![Model](images/accuracy_results.png)
+
+## Publication
+If you are willing to use this work, please be kind enough to cite the following [paper][paper-url]. Also don't hesitate to rate this repository if you find it useful.
+
+```
+paper will be available soon
+```
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[paper-url]: https://github.com/kasunw22/Sinhala-Transliterator
+[hf-model-url]: https://huggingface.co/kasunw/sinhala-transliterator
+[rule-based-method-url]: https://github.com/kasunw22/Sinhala-Transliterator/rule-based-method
+[seq2seq-method-url]: https://github.com/kasunw22/Sinhala-Transliterator/seq2seq-method
