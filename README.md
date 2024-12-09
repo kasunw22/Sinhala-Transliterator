@@ -14,7 +14,7 @@ A rule-based solution for Sinhala Transliteration which the resources can be fou
 A deep-learning-based Seq2seq modeling solution for Sinhala Transliteration which the resources can be found in [seq2seq-method/][seq2seq-method-url] directory. Our trained model is available on [huggingface][hf-model-url].
 
 ## Results
-- Official Test sets: https://github.com/IndoNLP-Workshop/IndoNLP-2025-Shared-Task
+- Official Test sets: https://github.com/IndoNLP-Workshop/IndoNLP-2025-Shared-Task (we have cleaned and arranged the official test sets into both csv and txt formats which can be found in [test-sets/][test-sets-url] directory)
 - Test set 1 consists of 10,000 datapoints with General Romanized Typing Patterns	and, Test set 2 consists of 5,000 datapoints with Adhoc Romanized Typing Patterns
 - Following table shows the evaluation scores of our two approaches on the official test-sets
 
@@ -32,3 +32,4 @@ paper will be available soon
 [hf-model-url]: https://huggingface.co/kasunw/sinhala-transliterator
 [rule-based-method-url]: https://github.com/kasunw22/Sinhala-Transliterator/rule-based-method
 [seq2seq-method-url]: https://github.com/kasunw22/Sinhala-Transliterator/seq2seq-method
+[test-sets-url]: https://github.com/kasunw22/Sinhala-Transliterator/test-sets
