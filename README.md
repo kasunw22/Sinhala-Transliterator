@@ -30,6 +30,6 @@ paper will be available soon
 <!-- MARKDOWN LINKS & IMAGES -->
 [paper-url]: https://github.com/kasunw22/Sinhala-Transliterator
 [hf-model-url]: https://huggingface.co/kasunw/sinhala-transliterator
-[rule-based-method-url]: https://github.com/kasunw22/Sinhala-Transliterator/rule-based-method
-[seq2seq-method-url]: https://github.com/kasunw22/Sinhala-Transliterator/seq2seq-method
-[test-sets-url]: https://github.com/kasunw22/Sinhala-Transliterator/test-sets
+[rule-based-method-url]: https://github.com/kasunw22/Sinhala-Transliterator/tree/main/rule-based-method
+[seq2seq-method-url]: https://github.com/kasunw22/Sinhala-Transliterator/tree/main/seq2seq-method
+[test-sets-url]: https://github.com/kasunw22/Sinhala-Transliterator/tree/main/test-sets
