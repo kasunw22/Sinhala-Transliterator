@@ -18,17 +18,22 @@ A deep-learning-based Seq2seq modeling solution for Sinhala Transliteration whic
 - Test set 1 consists of 10,000 datapoints with General Romanized Typing Patterns	and, Test set 2 consists of 5,000 datapoints with Adhoc Romanized Typing Patterns
 - Following table shows the evaluation scores of our two approaches on the official test-sets
 
-![Model](images/accuracy_results.png)
+![Model](images/accuracy_results.png)paper-url
 
 ## Publication
 If you are willing to use this work, please be kind enough to cite the following [paper][paper-url]. Also don't hesitate to rate this repository if you find it useful.
 
 ```
-paper will be available soon
+@article{de2024sinhala,
+  title={Sinhala Transliteration: A Comparative Analysis Between Rule-based and Seq2Seq Approaches},
+  author={De Mel, Yomal and Wickramasinghe, Kasun and de Silva, Nisansa and Ranathunga, Surangika},
+  journal={arXiv preprint arXiv:2501.00529},
+  year={2024}
+}
 ```
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[paper-url]: https://github.com/kasunw22/Sinhala-Transliterator
+[paper-url]: https://arxiv.org/abs/2501.00529
 [hf-model-url]: https://huggingface.co/kasunw/sinhala-transliterator
 [rule-based-method-url]: https://github.com/kasunw22/Sinhala-Transliterator/tree/main/rule-based-method
 [seq2seq-method-url]: https://github.com/kasunw22/Sinhala-Transliterator/tree/main/seq2seq-method
