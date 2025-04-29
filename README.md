@@ -26,10 +26,10 @@ If you are willing to use this work, please be kind enough to cite the following
 ```
 @inproceedings{de-mel-etal-2025-sinhala,
     title = "{S}inhala Transliteration: A Comparative Analysis Between Rule-based and {S}eq2{S}eq Approaches",
-    author = "De Mel, Widanalage Mario Yomal  and
-      Wickramasinghe, Kasun Imesha  and
+    author = "De Mel, Yomal  and
+      Wickramasinghe, Kasun  and
       de Silva, Nisansa  and
-      Ranathunga, Surangika Dayani",
+      Ranathunga, Surangika",
     editor = "Weerasinghe, Ruvan  and
       Anuradha, Isuri  and
       Sumanathilaka, Deshan",
